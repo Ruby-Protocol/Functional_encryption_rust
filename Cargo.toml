@@ -1,0 +1,14 @@
+[package]
+name = "functional_encryption_schemes"
+version = "0.1.0"
+authors = ["Gaurav Tiwari <gaurav1@tutamail.com>"]
+edition = "2018"
+
+[dependencies]
+miracl_core={path="vendor/miracl/mcore", version="0.1.0"}
+lazy_static = "1.4.0"
+rand = "0.5.0"
+rand_chacha = "0.3.0"
+num-traits = "0.2.8"
+num-bigint = "0.2.6"
+num-integer = "0.1.43"
